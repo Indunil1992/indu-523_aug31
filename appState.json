@@ -120,6 +120,9 @@
           "dev": false,
           "language": "nodejs"
         },
+        "test.js": { 
+          "name": "test.js", "version": "1.0.0", "dev": false, "language": "nodejs" 
+        },
         "aws-sdk": {
           "name": "aws-sdk",
           "language": "nodejs",
