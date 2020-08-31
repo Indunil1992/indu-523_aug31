@@ -1,0 +1,13 @@
+{
+  "name": "indu-523_aug31",
+  "version": "1.0.0",
+  "dependencies": {
+    "qa": "0.0.1",
+    "lodash": "4.17.20",
+    "test": "0.6.0",
+    "test.js": "1.0.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "2.644.0"
+  }
+}

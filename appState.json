@@ -1,0 +1,163 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "94703e0b-1759-4f7f-b7af-2c1e83fb453d": {
+        "id": "94703e0b-1759-4f7f-b7af-2c1e83fb453d",
+        "parent": null,
+        "name": "indu-523_aug31.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indu-523_aug31.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "indu523aug31"
+        },
+        "triggers": [],
+        "lastUpdated": 1598875326898
+      },
+      "9dc411b3-86fd-4d92-8563-86282f00b927": {
+        "id": "9dc411b3-86fd-4d92-8563-86282f00b927",
+        "parent": null,
+        "name": "sub-F1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "9e959621-266a-4d4b-81e7-3d7e94623c88"
+        ],
+        "isRemovable": true,
+        "filePath": "sub-F1"
+      },
+      "9e959621-266a-4d4b-81e7-3d7e94623c88": {
+        "id": "9e959621-266a-4d4b-81e7-3d7e94623c88",
+        "parent": "9dc411b3-86fd-4d92-8563-86282f00b927",
+        "name": "FF-test1.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sub-F1/FF-test1.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs12.x",
+          "handler": "handler",
+          "timeout": 100,
+          "memory": 256,
+          "layers": [],
+          "name": "FFTest1"
+        },
+        "triggers": [],
+        "lastUpdated": 1598875292268
+      }
+    },
+    "openFiles": [
+      "94703e0b-1759-4f7f-b7af-2c1e83fb453d",
+      "9e959621-266a-4d4b-81e7-3d7e94623c88"
+    ],
+    "currentFileId": "94703e0b-1759-4f7f-b7af-2c1e83fb453d",
+    "resources": {
+      "snsNotifications": {
+        "name": "snsNotifications",
+        "type": "SNS",
+        "config": {
+          "topicMode": 1,
+          "topicName": "Notifications",
+          "topicArn": "arn:aws:sns:us-east-1:318300609668:Notifications",
+          "snsType": 0,
+          "subscriptions": []
+        }
+      },
+      "s3as2TestLahiru": {
+        "name": "s3as2TestLahiru",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "as2-test-lahiru"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "qa": {
+          "name": "qa",
+          "version": "0.0.1",
+          "dev": false,
+          "language": "nodejs"
+        },
+        "lodash": {
+          "name": "lodash",
+          "version": "4.17.20",
+          "dev": false,
+          "language": "nodejs"
+        },
+        "test": {
+          "name": "test",
+          "version": "0.6.0",
+          "dev": false,
+          "language": "nodejs"
+        },
+        "test.js": {
+          "name": "test.js",
+          "version": "1.0.0",
+          "dev": false,
+          "language": "nodejs"
+        },
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.2",
+    "projectName": "indu-523_aug31",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1598875368227
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "indu-523_aug31",
+      "url": "https://github.com/Indunil1992/indu-523_aug31"
+    }
+  }
+}
