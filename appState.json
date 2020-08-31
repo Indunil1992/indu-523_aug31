@@ -23,7 +23,7 @@
           "name": "indu523aug31"
         },
         "triggers": [],
-        "lastUpdated": 1598875326898
+        "lastUpdated": 1598876854404
       },
       "9dc411b3-86fd-4d92-8563-86282f00b927": {
         "id": "9dc411b3-86fd-4d92-8563-86282f00b927",
@@ -47,8 +47,8 @@
         "isRemovable": true,
         "filePath": "sub-F1/FF-test1.js",
         "cursor": {
-          "lineNumber": 1,
-          "column": 1
+          "lineNumber": 17,
+          "column": 49
         },
         "config": {
           "runtime": "nodejs12.x",
@@ -59,14 +59,14 @@
           "name": "FFTest1"
         },
         "triggers": [],
-        "lastUpdated": 1598875292268
+        "lastUpdated": 1598876862054
       }
     },
     "openFiles": [
       "94703e0b-1759-4f7f-b7af-2c1e83fb453d",
       "9e959621-266a-4d4b-81e7-3d7e94623c88"
     ],
-    "currentFileId": "94703e0b-1759-4f7f-b7af-2c1e83fb453d",
+    "currentFileId": "9e959621-266a-4d4b-81e7-3d7e94623c88",
     "resources": {
       "snsNotifications": {
         "name": "snsNotifications",
@@ -151,7 +151,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1598875368227
+    "lastSave": 1598876872292
   },
   "VCS_STATE": {
     "provider": "GitHub",
